@@ -5,7 +5,7 @@ import Form from "./components/Form"
 import RandomNumber from './data/RandomNumber';
 import Loading from './components/Loading';
 import movies from './data/movisIds.js'
-const BASE_URL = "http://www.omdbapi.com/?";
+const BASE_URL = "https://www.omdbapi.com/?";
 const API_KEY = import.meta.env.VITE_API_KEY;
 
 function App() {
